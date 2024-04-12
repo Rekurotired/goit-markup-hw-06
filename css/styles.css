@@ -33,7 +33,6 @@ ul {
 }
 
 .container {
-  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -72,8 +71,9 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
   text-decoration: none;
+  margin-bottom: 16px;
+  display: block;
 }
 
 .logo-studio {
@@ -247,8 +247,7 @@ ul {
 .background {
   padding: 72px 0;
   text-align: center;
-  max-width: 767px;
-  width: 100%;
+  max-width: 320px;
   background-color: rgba(46, 47, 66, 0.7);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -558,6 +557,7 @@ ul {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .socials-list-footer {
@@ -611,7 +611,6 @@ ul {
   letter-spacing: 0.04em;
   color: #fff;
   padding-left: 16px;
-  margin-bottom: 16px;
 }
 
 .email-input::placeholder {
